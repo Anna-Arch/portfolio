@@ -1,0 +1,145 @@
+h1 {
+    font-family: "Courier New", 'Courier Prime', monospace;
+    font-size: large;
+    letter-spacing: 4px;
+}
+
+h1 strong {
+    font-family: 'Raleway', sans-serif;
+    font-weight:600;
+    /* letter-spacing: 4px; */
+}
+
+hr {
+margin-left: 75px;
+margin-right: 75px;
+margin-bottom: 0px;
+margin-top: 0px;
+}
+
+p {
+    font-family: "Courier New", 'Courier Prime', monospace;
+}
+
+.nav-item a {
+    font-family: "Courier New", 'Courier Prime', monospace;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    color: black;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.nav-item a:hover {
+    color: gray;
+}
+
+div.headline {
+    /* padding: 70px 0; */
+    /* text-align: center; */
+    position: relative;
+}
+
+/* div.headline h1 {
+    padding: 70px 0;
+} */
+
+.text-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* bottom: 20px;
+    right: 20px; */
+    /* background-color: black; */
+    /* color: white; */
+    /* padding: 200px 0; */
+    /* padding-left: 20px;
+    padding-right: 20px; */
+  }
+
+div.headline img {
+    height: 170px;
+    /* display: block;
+    margin: 0 auto; */
+}
+
+.appbar {
+    height: 100px;
+    vertical-align: middle;
+}
+
+div.section {
+    text-align: center;
+    /* height: 160px; */
+    vertical-align: middle;
+    margin-top: 35px;
+    margin-bottom: 60px;
+}
+
+div.section h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    letter-spacing: 8px;
+}
+
+div.section h3 {
+    font-family: "Courier New", 'Courier Prime', monospace;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+#homeslider {
+    width: 100%;
+}
+.carousel-control {
+    margin-top: 20px;
+}
+
+/* .btn-dark {
+    ma
+} */
+
+.cta {
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 11px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Courier New", 'Courier Prime', monospace;
+    letter-spacing: 4px;
+  }
+
+.carousel-inner {
+    width: 100%;
+    height: 50vh;
+}
+
+.item {
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption {
+top: 50%; 
+transform: translateY(-50%);
+}
+
+.carousel-caption h4 {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    letter-spacing: 8px;
+}
