@@ -155,3 +155,27 @@ transform: translateY(-25%);
     letter-spacing: 8px;
     margin-bottom: 25px;
 }
+
+.gridcell {
+    text-align: center;
+}
+
+.gridcell:hover {
+    color: grey;
+}
+
+.gridcell h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    letter-spacing: 8px;
+}
+
+.gridimage:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=40);
+}
+
+.gridimage {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
