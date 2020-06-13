@@ -24,7 +24,7 @@ const projects = {
         'img/gallery/office/str._22.pdf.png'
     ],
     PAVILON: [
-        '`img/gallery/pavilion/str._09.pdf.png',
+        'img/gallery/pavilion/str._09.pdf.png',
         'img/gallery/pavilion/str._10.pdf.png',
         'img/gallery/pavilion/str._11.pdf.png',
         'img/gallery/pavilion/str._12.pdf.png',
