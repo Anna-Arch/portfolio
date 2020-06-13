@@ -10,6 +10,29 @@ h1 strong {
     /* letter-spacing: 4px; */
 }
 
+a:link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: black;
+    text-decoration: none;
+  }
+
 hr {
 margin-left: 75px;
 margin-right: 75px;
